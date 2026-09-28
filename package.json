@@ -1,0 +1,21 @@
+{
+  "name": "mapfix",
+  "version": "1.0.0",
+  "description": "CLI for configuring and building React Native projects",
+  "main": "src/index.js",
+  "bin": {
+    "mapfix": "src/index.js"
+  },
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "react-native",
+    "cli",
+    "android",
+    "google-maps"
+  ],
+  "author": "Bussz e Emptyxzdev",
+  "license": "ISC",
+  "type": "commonjs"
+} 
