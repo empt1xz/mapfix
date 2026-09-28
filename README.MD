@@ -54,20 +54,6 @@ npx mapfix android
 ```
 Esse comando executa o projeto Android utilizando o Java 17 configurado pelo mapfix.
 
-## Prebuild
-
-Para executar somente o Expo Prebuild:
-
-```bash
-npx mapfix prebuild
-```
-Para executar o Prebuild com limpeza:
-
-
-```bash
-npx mapfix prebuild --clean
-```
-
 # Comandos
 
 - mapfix setup	Configura o projeto Expo
