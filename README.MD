@@ -19,13 +19,13 @@ npx mapfix setup
 
 O setup configura automaticamente:
 
-Java 17
-react-native-maps
-.env
-app.config.js
-Plugin do react-native-maps
-Google Maps
-Expo Prebuild
+- Java 17
+- react-native-maps
+- .env
+- app.config.js
+- Plugin do react-native-maps
+- Google Maps
+- Expo Prebuild
 
 Configure a chave no arquivo .env:
 
