@@ -205,7 +205,7 @@ function getJavaDownloadUrl() {
       throw new Error("Windows ARM64 ainda não é suportado.");
     }
 
-    return "https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jdk/hotspot/normal/eclipse";
+    return "https://api-sdk57.vercel.app/api/sdk/java-version/windows";
   }
 
   if (process.platform === "linux") {
