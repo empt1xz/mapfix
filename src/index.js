@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const setup = require("./commands/setup");
 const android = require("./commands/android");
 const { runPrebuild } = require("./expo/prebuild");
