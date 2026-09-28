@@ -1,4 +1,4 @@
-# mapfix
+# MAPFIX
 
 CLI para configurar projetos Expo/React Native com suporte ao Google Maps.
 
@@ -70,10 +70,10 @@ npx mapfix prebuild --clean
 
 # Comandos
 
-mapfix setup	Configura o projeto Expo
-mapfix prebuild	Executa o Expo Prebuild
-mapfix prebuild --clean	Executa o Expo Prebuild limpando os arquivos nativos
-mapfix android	Executa o projeto Android com o Java 17 no cache
+- mapfix setup	Configura o projeto Expo
+- mapfix prebuild	Executa o Expo Prebuild
+- mapfix prebuild --clean	Executa o Expo Prebuild limpando os arquivos nativos
+- mapfix android	Executa o projeto Android com o Java 17 no cache
 
 Caso o Java 17 não esteja instalado, o mapfix realiza o download e mantém uma cópia no cache da máquina.
 
@@ -81,4 +81,4 @@ O Java utilizado pelo projeto não altera a instalação global do Java do siste
 
 # Projeto
 
-O mapfix foi criado para facilitar a configuração de projetos Expo/React Native que utilizam Google Maps no Android.
+O mapfix foi criado para facilitar a configuração e corrigir o bug de projetos Expo/React Native que utilizam Google Maps no Android.
